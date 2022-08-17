@@ -1,0 +1,140 @@
+:root {
+    --body-bg-color: #dce4e3;
+    --green: #18c29c;
+    --light-green: #8ed7c6;
+      --light-grey: #dce4e3;
+    --text-color: #084236;
+  }
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+  body{
+    background-color: var(--body-bg-color);
+    display: flex;
+    
+}
+.new{
+    display: none;
+    transition: 3s;
+
+}
+
+
+.sideBar, .h{
+    background-color: var(--green);
+    width:200px;
+    margin:0;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    height:753px;
+
+    transition: all 2s;
+
+
+}
+.h{
+    width: 60px;
+    
+}
+.sideBar #menu, .h #menu{
+    display: flex;
+    justify-content: space-between;
+
+    cursor: pointer;
+}
+.sideBar button, .h button{
+    color: none;
+    border: 0;
+    background-color:var(--green);
+    
+    cursor: pointer;
+}
+.sideBar #menu #logo, .h #menu #logo{
+    width:50px;
+    height:20px;
+}
+.sideBar .logout, .h .logout{
+    width: 200px;
+    margin-left: -20px;
+    height:52px;
+    display: flex;
+    margin-top: 365px;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    
+    background-color: var(--light-green);
+}
+.sideBar .logout #per, .h .logout #per{
+    margin:10px;
+    border-radius: 10px;
+
+}
+.sideBar .logout #user p, .h .logout #user p{
+    font-size:12px;
+}
+.sideBar .logout #ico, .h .logout #ico{
+    margin: 10px;
+    height: 25px;
+}
+.sideBar .logout #user, .h .logout #user{
+    margin-top: 10px;
+
+}
+.sideBar .icons, .h #icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBar .titles p, .h .titles p{
+    
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.sideBar .search, .client, .dash, .pet, .vet , .seting, .h .search, .client, .dash, .pet, .vet , .seting{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.search{
+    padding:10px;
+    background-color: var(--light-green);
+    border-radius: 10px;
+    margin-left: -10px;
+}
+.search img{
+    margin:0;
+}
+
+.sideBar img, .h img{
+    max-width: 30px;
+    margin-bottom: 10px;
+}
+
+
+strong{
+    
+    font-size: 34px;
+    font-family: 'Poppins',sans-serif;
+    color:var(--text-color);
+    font-weight: 500;
+    margin-left: 40px;
+
+}
+
+.side{
+    display: flex;
+
+}
+
+
